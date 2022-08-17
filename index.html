@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link href="styles.css" rel="stylesheet">
+    <header class="banner">
+        <img src="./assets/rickandmortybanner2.png" alt="rick & morty banner">
+    </header>
+</head>
+<body>
+    <div class="portal-img" id="portal">
+        <h2>“Nobody exists on purpose. Nobody belongs anywhere. We’re all going to die. Come play snake!” — Morty</h2>
+        <img class="portal" id = "portalImg" src="./assets/portal4.png" alt="green space portal">
+    </div>
+
+    <div class="resetButton">
+        <button id="resetButton" type="button"><b>Restart Game</b></button>
+    </div>
+
+    <div id="winnerText"></div>
+    <div id="loserText"></div>
+
+    <div id="grid-game-board"></div>
+
+    <script type="module" src="game.js"></script>
+</body>
+</html>

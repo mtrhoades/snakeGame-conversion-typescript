@@ -1,0 +1,14 @@
+{
+  "name": "snakegame",
+  "version": "1.0.0",
+  "description": "RICK AND MORTY SNAKE GAME:",
+  "main": "food.js",
+  "scripts": {
+    "build": "npx tsc"
+  },                              
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
